@@ -20,7 +20,7 @@ export const ContactItems = ({ name, number, id, deleteContact }) => {
   );
 };
 
-PropTypes.ContactItems = {
+ContactItems.propTypes = {
   deleteContact: PropTypes.func.isRequired,
   name: PropTypes.string.isRequired,
   number: PropTypes.string.isRequired,
